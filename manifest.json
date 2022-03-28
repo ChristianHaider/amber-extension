@@ -1,0 +1,44 @@
+{
+
+  "manifest_version": 2,
+  "name": "AmberExtension",
+  "version": "1.0",
+
+  "description": "Open a helios browser on a webpage",
+
+  "icons": {
+    "48": "AmberIcon.svg",
+    "96": "AmberIcon.svg"
+  },
+
+  "permissions": [
+    "activeTab",
+	"tabs",
+	"<all_urls>"
+  ],
+  
+  "devtools_page": "heliosDevtool.html",
+
+  "browser_action": {
+    "default_icon": "AmberIcon.svg",
+    "default_title": "open Helios"
+  },
+  
+  "background": {
+    "scripts": ["openHelios.js"]
+  },
+  
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["theExtension.js"]
+  }],
+  
+  "web_accessible_resources": [
+	"helios.html",
+	"theExtension.js",
+	"AmberIcon.svg"
+  ],
+  
+  "content_security_policy": "script-src 'self' 'unsafe-eval' moz-extension:*; object-src 'self';"
+
+}
