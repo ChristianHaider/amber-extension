@@ -9,8 +9,6 @@ I think that the old Amber browser should work... but I have not tried that.
 
 ## Use AmberWebExtension library in your project
 
-**DELETE THIS PARAGRAPH, IF AmberWebExtension IS A LIBRARY. DELETE WHOLE THIS SECTION IF AmberWebExtension IS AN APP, NOT A LIBRARY.**
-
 If not already done, install Amber and create an Amber project with `amber init`,
 as shown in [Amber Instructions](https://lolg.it/amber/amber#prerequisities).
 
