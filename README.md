@@ -1,6 +1,6 @@
 # Amber web extension
 
-Open a Helios browser on any web site[1;6D[C
+Open a Helios browser on any web site.
 
 This project has failed. I could not get a popup window with Helios connected to the external web page. This is due to web security issues, not Amber.
 
