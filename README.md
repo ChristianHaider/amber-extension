@@ -1,6 +1,6 @@
 # Amber web extension
 
-Open a Helios browser on any web site.
+Open a Helios browser on any web site. (idea like [Greasemonkey](https://en.wikipedia.org/wiki/Greasemonkey))
 
 This project has failed. I could not get a popup window with Helios connected to the external web page. This is due to web security issues, not Amber.
 
